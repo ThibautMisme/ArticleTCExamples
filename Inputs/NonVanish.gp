@@ -1,6 +1,5 @@
 
 \\Non Vanish
-\\print("CH X_0(33) r=0"); 
 
 PolCurveInit=x^8 + 10*x^6 - 8*x^5 + 47*x^4 - 40*x^3 + 82*x^2 - 44*x + 33-y^2;
 Badprime=[2,3,11];

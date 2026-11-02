@@ -1,5 +1,4 @@
 
-\\GOOD
 \\BPS1
 
 PolCurveInit= x^3*y-x^2*y^2-x^2-x*y^2+x+y^3;

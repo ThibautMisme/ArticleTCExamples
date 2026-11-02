@@ -1,5 +1,4 @@
 
-\\GOOD
 \\Klein
 
 PolCurveInit=x^3*y + y^3 + x;

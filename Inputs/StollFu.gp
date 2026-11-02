@@ -10,4 +10,3 @@ emax=1500;
 pInit=5;        \\pInit= 5 (alpha fail), 11 (alpha fail), 13 (alpha fail), 31, 37 (alpha fail), 43, 47 (arf error)
 P1Init=[0,1,1];
 flagPointJFp=0;
-
