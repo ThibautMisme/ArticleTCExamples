@@ -3,7 +3,6 @@ Visit [arXiv:2610.29449](https://arxiv.org/abs/2610.29449) <br />
 If you enconter any issues, please contact me: mismet at tcd.ie <br />
 
 
-
 To run an example of the article:
 1. Download and set up the PARI/GP language on your computer. Visit their [webpage](https://pari.math.u-bordeaux.fr/gp.html).<br/>
 This is a necessary step as the code is implemented in PARI/GP.
