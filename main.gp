@@ -112,15 +112,15 @@ if(flagEffective,[listeThetaFraction,listeIndexTFE]=MakeTFEffectiveMain(J,PolCur
 	print("Theta Fractions: end");
 
 \\**************************************************** THETA HYPERPLANES ***************************************************************
-if(flagEffective&&flagTH,listeTH=InitlisteTHMain(listeThetaFraction,HTFE,listeFieldArchiOTC,listeIndexTFE,flagTC));
+if(flagEffective&&flagTH,listTH=InitlisteTHMain(listeThetaFraction,HTFE,listeFieldArchiOTC,listeIndexTFE,flagTC));
 
 
 \\******************************************* END ********************************************
         print("\n","total time (CPU): ",strtime(getabstime()));
 	timecomputation=gettime();
 
-	if(flagTC==0,chiOTC=ChiOTC[1],chiOTC=ChiOTC);
-	if(flagTC,chiETC=ChiOTC[2]);
+	if(flagTC,chiOTC=ChiOTC[1],chiOTC=ChiOTC);
+	if(flagTC,chiETC=ChiOTC[2],chiETC="only OTC have been computed");
         g=getg(J);
 	listTF=InitlistTF(listeThetaFraction,flagTC,flagThetaFraction);
 	listFieldTC=listeFieldArchiOTC;

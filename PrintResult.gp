@@ -30,7 +30,7 @@ PrintJ2(ChiJ2,flagChiJ2)=
 	return();
 }
 
-PrintTHrational(a,b,listTF,listeTH,flagTC,flagTH)=
+PrintTHrational(a,b,listTF,listTH,flagTC,flagTH)=
 {
 	my();
 	print("\n");
@@ -39,7 +39,7 @@ PrintTHrational(a,b,listTF,listeTH,flagTC,flagTH)=
 			for(k=1,a,
 				if(flagTC,print("TF rational OTC: $",polhomogenise(lift(listTF[1][k]),'z,1),"$","\\","\\"),
 					print("TF rational OTC: $",polhomogenise(lift(listTF[k]),'z,1),"$","\\","\\"));
-                		if(flagTH,print("Theta Hyperplane: $",lift(listeTH[k]),"$","\\","\\"));
+                		if(flagTH,print("Theta Hyperplane: $",lift(listTH[k]),"$","\\","\\"));
 				);
                 	);
         	if(b!=0,
@@ -76,7 +76,7 @@ print("\n","Orbit Decomposition");
 a=PrintOTC(ChiOTC,flagTC);
 b=PrintETC(ChiETC,flagTC);
 
-PrintTHrational(a,b,listTF,listeTH,flagTC,flagTH);
+PrintTHrational(a,b,listTF,listTH,flagTC,flagTH);
 
 PrintFieldTC(listeFieldArchiOTC,flagTC);
 
