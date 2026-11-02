@@ -32,5 +32,6 @@ Ex: read("addressTC/PrintResult.gp");
             This list is plit by Q-orbits. Only one representative by orbit is stored.<br/>
         - The fields of definition of the TC are stored as a list in the variable 'listFieldTC'. They are as returned by the algorithm. .In particular, the commend 'polredabs' has not been applied to them.<br/>
             This list is split in two if the ETC have been computed.<br />
-            Actually, listFieldTC stores the nf structure of the corresponding fields. To access the defining polynomials, add '.pol'. Ex: if both OTC and ETC have been computed, access the polynomial of the definition field of the smallest orbit of the ETC by 'listFieldTC[2][1].pol'. If only OTC have been computed, access the polynomial of the definition field of the third smallest orbit by 'listFieldTC[3].pol'.
+            Actually, listFieldTC stores the nf structure of the corresponding fields. To access the defining polynomials, add '.pol'. <br />
+            Ex: if both OTC and ETC have been computed, access the polynomial of the definition field of the smallest orbit of the ETC by 'listFieldTC[2][1].pol'. If only OTC have been computed, access the polynomial of the definition field of the third smallest orbit by 'listFieldTC[3].pol'.
 
